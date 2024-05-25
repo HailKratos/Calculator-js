@@ -1,0 +1,45 @@
+#keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    padding: 25px;
+}
+
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 33, 33);
+    border-radius:15px;
+    max-width: 500px;
+    overflow: hidden;
+    
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(58, 57, 57);
+    font-size: 25px;
+    border:none;
+    color: white;
+}
+
+.operator-bt{
+    background-color: orange;
+}
+.operator-bt:hover{
+    background-color: rgb(242, 186, 82);
+}
+.operator-bt:active{
+    background-color: orange;
+}
+
+.clear-bt{
+    background-color: rgb(97, 161, 0);
+}
+.clear-bt:hover{
+    background-color: rgb(184, 255, 78);
+}
+.clear-bt:active{
+    background-color: rgb(97, 161, 0);
+}
